@@ -1,0 +1,4 @@
+{
+	"SW1_REQ_\\d+": "./sw1req.json",
+	"SW2_REQ_\\d+": "./sw2req.json"
+}

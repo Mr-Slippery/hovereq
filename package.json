@@ -1,0 +1,40 @@
+{
+  "name": "hovereq",
+  "publisher": "Mr. Slippery",
+  "displayName": "hovereq",
+  "description": "Hovering Requirements extension",
+  "version": "0.0.1",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/Mr-Slippery/hovereq.git"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "requirements",
+    "software engineering",
+    "traceability"
+  ],
+  "main": "./code/entrypoint.js",
+  "contributes": {
+    "capabilities": {
+      "hoverProvider": "true"
+    },
+    "commands": [
+      {
+        "command": "hovereq",
+        "title": "Hovering Requirements"
+      }
+    ]
+  },
+  "activationEvents": [
+    "onCommand:hovereq"
+  ],
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "devDependencies": {
+    "vscode": "^1.1.20"
+  }
+}
